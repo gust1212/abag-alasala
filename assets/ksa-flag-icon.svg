@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="KSA Flag Icon">
+  <rect width="640" height="400" fill="#006c35"/>
+  <!-- simplified white sword -->
+  <rect x="160" y="260" width="320" height="16" fill="#ffffff" rx="8"/>
+  <circle cx="160" cy="268" r="12" fill="#ffffff"/>
+  <!-- KSA label for clarity -->
+  <text x="50%" y="45%" text-anchor="middle" font-size="120" font-family="sans-serif" fill="#ffffff" opacity="0.2">KSA</text>
+</svg>

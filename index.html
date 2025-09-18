@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عبق الأصالة — مزيج نوى التمر مع القرفة والهيل</title>
+  <meta name="description" content="مشروب طبيعي من نوى التمر المحمّص مع القرفة والهيل. خالٍ من الكافيين ومناسب لمرضى السكري. يدعم الهضم والحرق والرشاقة." />
+  <style>
+    :root{
+      --bg:#0b0b0c;
+      --card:#131316;
+      --gold:#d4af37;
+      --muted:#c8c8c8;
+      --text:#f4f4f5;
+      --accent:#b58b1e;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:"Tajawal",system-ui,-apple-system,Segoe UI,Roboto,"Noto Naskh Arabic",sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}
+    .wrap{max-width:1100px;margin:auto;padding:20px}
+    header.hero{
+      position:relative;
+      padding:80px 20px 60px;
+      background: radial-gradient(1000px 400px at 50% -10%, rgba(212,175,55,0.12), transparent 60%);
+      text-align:center;
+      border-bottom:1px solid rgba(212,175,55,.18);
+    }
+    .brand{font-size:48px;font-weight:800;letter-spacing:.5px;color:var(--gold)}
+    .subtitle{font-size:18px;color:var(--muted);margin-top:10px}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px}
+    .badge{border:1px solid rgba(212,175,55,.35);color:var(--gold);padding:6px 10px;border-radius:999px;font-size:13px;background:rgba(212,175,55,.05)}
+    section{padding:36px 0;border-bottom:1px solid rgba(212,175,55,.12)}
+    h2{font-size:26px;margin:0 0 18px;color:var(--gold)}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .card{background:var(--card);border:1px solid rgba(212,175,55,.15);border-radius:14px;padding:18px}
+    .list{margin:0;padding:0;list-style:none}
+    .list li{padding:8px 0;border-bottom:1px dashed rgba(212,175,55,.15)}
+    .list li:last-child{border-bottom:0}
+    .cta{
+      display:inline-block;margin-top:14px;border:1px solid var(--gold);color:var(--bg);background:var(--gold);
+      padding:12px 18px;border-radius:10px;font-weight:700
+    }
+    footer{padding:28px 0;color:var(--muted);text-align:center;font-size:13px}
+    .en{direction:ltr;text-align:left}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(212,175,55,.06);border:1px solid rgba(212,175,55,.25);color:var(--gold);font-size:12px}
+    .note{font-size:14px;color:var(--muted)}
+    @media (max-width:820px){
+      .brand{font-size:36px}
+    }
+  
+    .flag{font-size:18px;vertical-align:-2px;margin-left:6px;margin-right:2px}
+    .flag-inline{display:inline-flex;align-items:center;gap:6px}
+    
+    .seal{
+      display:inline-flex;align-items:center;justify-content:center;
+      width:96px;height:96px;border-radius:999px;
+      background: radial-gradient(circle at 30% 30%, #e9c85a, #b58b1e 60%, #8f6d12 100%);
+      color:#131316;border:2px solid rgba(255,255,255,.08);
+      box-shadow:0 6px 20px rgba(212,175,55,.22), inset 0 2px 4px rgba(255,255,255,.35);
+      font-weight:800;text-align:center;font-size:11px;line-height:1.2;padding:8px
+    }
+    .seal small{display:block;font-weight:700;font-size:10px;opacity:.9}
+    .seal .flag{font-size:20px;margin-bottom:4px}
+    .seal-wrap{display:flex;gap:14px;justify-content:center;margin-top:16px}
+    .facts{background:#0f0f12;border:1px solid rgba(212,175,55,.25);border-radius:12px;padding:14px;color:#e9e9ea}
+    .facts h3{margin:0 0 8px;color:#d4af37;font-size:18px}
+    .facts table{width:100%;border-collapse:collapse;font-size:14px}
+    .facts td{padding:6px 0;border-bottom:1px dashed rgba(212,175,55,.15)}
+    .facts td:last-child{text-align:left;direction:ltr}
+    .barcode{display:flex;flex-direction:column;align-items:center;gap:6px}
+    .barcode .code{font-family:monospace;font-size:14px;color:#cfcfcf}
+    .barcode svg{width:220px;height:80px;background:#fff;border-radius:6px}
+    </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand">عبق الأصالة</div>
+      <div class="subtitle">مزيج طبيعي من نوى التمر المحمّص مع القرفة والهيل — الأصالة في كل رشفة</div>
+      <div class="badges">
+        <span class="badge">خالٍ من الكافيين</span>
+        <span class="badge">مناسب لمرضى السكري</span>
+        <span class="badge">غني بمضادات الأكسدة</span>
+        <span class="badge">يدعم الحرق والرشاقة</span>
+        <span class="badge">Made in KSA 🇸🇦</span>
+      </div>
+      
+    <div class="seal-wrap">
+      <div class="seal">
+        <div class="flag">🇸🇦</div>
+        <div>Made in KSA<small>ختم الجودة</small></div>
+      </div>
+    </div>
+    <!-- <a class="cta" href="#buy">اطلب الآن</a> -->
+
+    </div>
+  </header>
+  <section id="assets-hero" class="wrap" style="padding-top:20px">
+    <div class="card" style="display:flex;gap:18px;align-items:center;justify-content:center;flex-wrap:wrap">
+      <img src="assets/ksa-flag-icon.svg" alt="KSA Flag Icon" style="height:54px;border-radius:6px;border:1px solid rgba(212,175,55,.25)">
+      <img src="assets/product-mock.png" alt="Abq Al-Asala Product" style="height:220px;border-radius:10px;border:1px solid rgba(212,175,55,.2)">
+    </div>
+  </section>
+
+
+  <main class="wrap">
+
+    <section id="about">
+      <h2>عن المنتج</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 12;">
+          <p>
+            مشروب تراثي بلمسة عصرية يجمع بين<strong> نوى التمر المحمّص </strong>و<strong>القرفة</strong> و<strong>الهيل</strong> ليمنحك
+            نكهة شرقية فاخرة وفوائد صحية طبيعية. تركيبة متوازنة تساعد على دعم الهضم، وتنشيط الأيض،
+            والمساهمة في تقليل الشهية للحفاظ على رشاقة وصحة أفضل.
+          </p>
+          <p class="note">بدون كافيين – بدون سكر مضاف – بدون مواد حافظة.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits">
+      <h2>الفوائد</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 6;">
+          <ul class="list">
+            <li>يدعم حرق الدهون ويساهم في إدارة الوزن مع نمط حياة متوازن.</li>
+            <li>يساعد على تنظيم الشهية والحد من الرغبة بالحلويات.</li>
+            <li>يساند صحة الجهاز الهضمي ويخفف الانتفاخ.</li>
+            <li>مناسب لمرضى السكري — خالٍ من السكر المضاف.</li>
+          </ul>
+        </div>
+        <div class="card" style="grid-column: span 6;">
+          <ul class="list">
+            <li>خالٍ من الكافيين؛ مناسب للذين يتجنبون المنبهات.</li>
+            <li>غني بمضادات الأكسدة المفيدة للمناعة والعافية العامة.</li>
+            <li>نكهة أصيلة تجمع عبق الماضي وروح الحاضر.</li>
+            <li>سهل التحضير ويمكن تحليته بالعسل حسب الرغبة.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="directions">
+      <h2>طريقة الاستعمال</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 12;">
+          <ol>
+            <li>ضع <strong>ملعقة صغيرة (5غ)</strong> من المزيج في كوب.</li>
+            <li>أضف <strong>150 – 200 مل</strong> من الماء المغلي.</li>
+            <li>حرّك واتركه <strong>3–5 دقائق</strong> ليخرج كامل النكهة.</li>
+            <li>يمكن تحليته بالعسل، ويفضل شربه دون سكر للاستفادة القصوى.</li>
+            <li>لأفضل نتيجة: كوب صباحاً على معدة فارغة، وكوب بعد وجبة دسمة. يوصى بـ <strong>2–3 أكواب يومياً</strong>.</li>
+          </ol>
+          <p class="note">ملاحظة: يساعد على تعزيز الأيض ودعم التنحيف عند دمجه مع نظام غذائي متوازن ونشاط بدني منتظم.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ingredients">
+      <h2>المكونات</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 12;">
+          <p><span class="pill">نوى تمر محمّص</span> <span class="pill">قرفة</span> <span class="pill">هيل</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech">
+      <h2>المعلومات التقنية</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 6;">
+          <ul class="list">
+            <li><strong>الوزن الصافي:</strong> 200 غ</li>
+            <li><strong>بلد المنشأ:</strong> صُنع في المملكة العربية السعودية (Made in KSA 🇸🇦)</li>
+            <li><strong>تاريخ الإنتاج:</strong> 18/09/2025</li>
+            <li><strong>تاريخ الانتهاء:</strong> 18/09/2027</li>
+          </ul>
+        </div>
+        <div class="card en" style="grid-column: span 6;">
+          <ul class="list">
+            <li><strong>Net Weight:</strong> 200 g</li>
+            <li><strong>Country of Origin:</strong> <span class="flag-inline"><span class="flag">🇸🇦</span>Made in KSA</span> 🇸🇦</li>
+            <li><strong>Production Date:</strong> 2025-09-18</li>
+            <li><strong>Expiry Date:</strong> 2027-09-18</li>
+            <li><strong>Storage:</strong> Store in a cool, dry place away from direct sunlight.</li>
+            <li><strong>Free From:</strong> Caffeine, preservatives, and added sugar.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">مناسب لمرضى السكري — خالٍ من الكافيين — خالٍ من السكر المضاف.</p>
+    
+    <section id="facts-barcode">
+      <h2>Nutrition Facts & Barcode</h2>
+      <div class="grid">
+        <div class="card facts" style="grid-column: span 6;">
+          <h3>Nutrition Facts (per serving)</h3>
+          <table>
+            <tr><td>Calories</td><td>0 kcal</td></tr>
+            <tr><td>Total Fat</td><td>0 g</td></tr>
+            <tr><td>Sugars</td><td>0 g (no added sugar)</td></tr>
+            <tr><td>Sodium</td><td>0 mg</td></tr>
+            <tr><td>Caffeine</td><td>0 mg</td></tr>
+          </table>
+          <p class="note">* القيم تقديرية لمزيج عشبي غير محلّى. قد تختلف حسب طريقة التحضير.</p>
+        </div>
+        <div class="card barcode" style="grid-column: span 6;">
+          <!-- Simple placeholder barcode (SVG stripes) -->
+          <svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder Barcode">
+            <rect width="220" height="80" fill="#ffffff"/>
+            <rect x='10' y='10' width='2' height='60' fill='#000'/>
+<rect x='14' y='10' width='1' height='60' fill='#000'/>
+<rect x='18' y='10' width='3' height='60' fill='#000'/>
+<rect x='24' y='10' width='1' height='60' fill='#000'/>
+<rect x='28' y='10' width='4' height='60' fill='#000'/>
+<rect x='34' y='10' width='1' height='60' fill='#000'/>
+<rect x='38' y='10' width='3' height='60' fill='#000'/>
+<rect x='44' y='10' width='2' height='60' fill='#000'/>
+<rect x='49' y='10' width='1' height='60' fill='#000'/>
+<rect x='53' y='10' width='4' height='60' fill='#000'/>
+<rect x='60' y='10' width='2' height='60' fill='#000'/>
+<rect x='64' y='10' width='1' height='60' fill='#000'/>
+<rect x='68' y='10' width='3' height='60' fill='#000'/>
+<rect x='72' y='10' width='1' height='60' fill='#000'/>
+<rect x='76' y='10' width='5' height='60' fill='#000'/>
+<rect x='84' y='10' width='1' height='60' fill='#000'/>
+<rect x='88' y='10' width='3' height='60' fill='#000'/>
+<rect x='94' y='10' width='2' height='60' fill='#000'/>
+<rect x='98' y='10' width='1' height='60' fill='#000'/>
+<rect x='102' y='10' width='4' height='60' fill='#000'/>
+<rect x='108' y='10' width='1' height='60' fill='#000'/>
+<rect x='112' y='10' width='3' height='60' fill='#000'/>
+<rect x='118' y='10' width='2' height='60' fill='#000'/>
+<rect x='124' y='10' width='1' height='60' fill='#000'/>
+<rect x='128' y='10' width='4' height='60' fill='#000'/>
+<rect x='134' y='10' width='1' height='60' fill='#000'/>
+<rect x='138' y='10' width='3' height='60' fill='#000'/>
+<rect x='144' y='10' width='2' height='60' fill='#000'/>
+<rect x='148' y='10' width='1' height='60' fill='#000'/>
+<rect x='152' y='10' width='4' height='60' fill='#000'/>
+<rect x='158' y='10' width='1' height='60' fill='#000'/>
+<rect x='162' y='10' width='3' height='60' fill='#000'/>
+<rect x='168' y='10' width='2' height='60' fill='#000'/>
+          </svg>
+          <div class="code">EAN (placeholder): 628123456200</div>
+          <p class="note">* استبدل هذا الباركود بالرقم الرسمي قبل الطباعة.</p>
+        </div>
+      </div>
+    </section>
+    </section>
+
+    <section id="legal">
+      <h2>إخلاء مسؤولية</h2>
+      <div class="card">
+        <p class="note">
+          هذا المنتج عشبي غذائي وليس دواءً. لا يهدف لتشخيص أو علاج أو منع أي مرض. يُنصح بمراجعة الطبيب
+          عند وجود حالات صحية خاصة أو استخدام أدوية منتظمة.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>تواصل</h2>
+      <div class="card">
+        <p class="note">
+          يمكن إضافة معلومات الاتصال هنا (بريد إلكتروني / موقع / حسابات تواصل). تم ترك هذا الحقل فارغاً عمداً لتخصيصه لاحقاً.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="y"></span> عبق الأصالة — جميع الحقوق محفوظة
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
